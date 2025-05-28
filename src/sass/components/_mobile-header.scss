@@ -1,0 +1,148 @@
+@use "./placeholder" as *;
+
+// mobile naviagtion
+
+.container-full {
+  width: 100%;
+}
+
+.mobile-header {
+  display: none;
+}
+
+.mobile-header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid #f0effb;
+}
+
+#nav-opn-btn {
+  border: none;
+  color: var(--primary_black);
+  background: var(--primary_white);
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+// offcanvas
+
+#offcanvas-nav {
+  background: transparent;
+  position: absolute;
+  left: -300px;
+  top: 0px;
+  z-index: 99;
+  width: 300px;
+  height: 100vh;
+  z-index: 999999;
+  transition: 0.5s ease;
+
+  &::before {
+    content: "";
+    width: 0%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    transition: 0.5s ease 0.3s;
+  }
+}
+
+#offcanvas-nav.open {
+  left: 0px;
+
+  &::before {
+    width: 100%;
+  }
+}
+
+#offcanvas-nav .m-nav {
+  position: relative;
+  background: var(--primary_white);
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 50px;
+  z-index: 9;
+  display: block;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+#nav-cls-btn {
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 22px;
+  line-height: 0;
+}
+
+.m-nav-top {
+  @extend %display-flex_c-j-sb;
+  margin: 20px 0 50px 0;
+}
+
+#offcanvas-nav .m-nav .nav-links {
+  flex-direction: column;
+  align-items: stretch;
+  gap: 15px;
+
+  li {
+    border-bottom: 1px solid #d3d3d3;
+    margin-bottom: 20px;
+
+    a {
+      font-size: 16px;
+      color: #000;
+      @extend %display-flex_c-j-sb;
+      &::before {
+        display: none;
+      }
+    }
+  }
+}
+
+#offcanvas-nav li:last-of-type {
+  border: 0 !important;
+}
+
+#offcanvas-nav .m-nav .nav-links .dropdown {
+  .d-menu {
+    position: relative;
+    box-shadow: none;
+    padding-left: 20px;
+    padding-top: 15px !important;
+    padding-top: 0px;
+    visibility: visible;
+    opacity: 1;
+    display: none;
+    transition: 0.5s ease-in 0s;
+    li {
+      padding: 5px 0px;
+
+      a {
+        font-size: 15px;
+        color: #000;
+      }
+    }
+  }
+
+  &:hover {
+    .d-menu {
+      display: block;
+    }
+  }
+}
+
+#offcanvas-nav .m-nav > .social-icons-s1 {
+  gap: 12px;
+  margin-top: 50px;
+
+  li a::before {
+    display: none;
+  }
+}
