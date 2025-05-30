@@ -1,6 +1,6 @@
 import React from "react";
 import PageHeader from "../component/PageHeader";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import blogThumb1 from "../assets/images/blog-thumb-1.webp";
 import blogThumb2 from "../assets/images/blog-thumb-2.webp";
 import blogThumb3 from "../assets/images/blog-thumb-3.webp";

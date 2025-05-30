@@ -1,6 +1,7 @@
 import React from "react";
 import check from "../assets/images/check.svg";
 import check2 from "../assets/images/check2.svg";
+import { Link } from "react-router-dom";
 
 const Pricing = () => {
   return (
@@ -117,12 +118,9 @@ const Pricing = () => {
                         </li>
                       </ul>
 
-                      <a
-                        href="./pricing.html"
-                        className="sara-btn sara-btn_black"
-                      >
+                      <Link to="/pricing" className="sara-btn sara-btn_black">
                         Get Started
-                      </a>
+                      </Link>
                     </div>
                   </div>
 
@@ -176,9 +174,9 @@ const Pricing = () => {
                         </li>
                       </ul>
 
-                      <a href="./pricing.html" className="sara-btn">
+                      <Link to="/pricing" className="sara-btn">
                         Get Started
-                      </a>
+                      </Link>
                     </div>
                   </div>
 
@@ -232,12 +230,9 @@ const Pricing = () => {
                         </li>
                       </ul>
 
-                      <a
-                        href="./pricing.html"
-                        className="sara-btn sara-btn_black"
-                      >
+                      <Link to="/pricing" className="sara-btn sara-btn_black">
                         Get Started
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -300,12 +295,9 @@ const Pricing = () => {
                         </li>
                       </ul>
 
-                      <a
-                        href="./pricing.html"
-                        className="sara-btn sara-btn_black"
-                      >
+                      <Link to="/pricing" className="sara-btn sara-btn_black">
                         Get Started
-                      </a>
+                      </Link>
                     </div>
                   </div>
 
@@ -359,9 +351,9 @@ const Pricing = () => {
                         </li>
                       </ul>
 
-                      <a href="./pricing.html" className="sara-btn">
+                      <Link to="/pricing" className="sara-btn">
                         Get Started
-                      </a>
+                      </Link>
                     </div>
                   </div>
 
@@ -415,12 +407,9 @@ const Pricing = () => {
                         </li>
                       </ul>
 
-                      <a
-                        href="./pricing.html"
-                        className="sara-btn sara-btn_black"
-                      >
+                      <Link to="/pricing" className="sara-btn sara-btn_black">
                         Get Started
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

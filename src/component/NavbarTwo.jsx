@@ -1,8 +1,8 @@
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import { useEffect } from "react";
-import MobileMenu from "./MobileMenu";
 import headerLogImg from "../assets/images/logo-2.svg";
 import Select from "react-select";
+import MobileMenu from "./MobileMenu";
 
 const NavbarTwo = () => {
   useEffect(() => {
@@ -28,6 +28,8 @@ const NavbarTwo = () => {
     { value: "Ban", label: "BAN" },
     { value: "Ind", label: "IND" },
   ];
+
+  const addClass = "navbar-2";
 
   return (
     <>
@@ -271,7 +273,7 @@ const NavbarTwo = () => {
           </div>
         </div>
       </header>
-      <MobileMenu headerLogImg={headerLogImg}></MobileMenu>
+      <MobileMenu headerLogImg={headerLogImg} addClass={addClass}></MobileMenu>
     </>
   );
 };

@@ -1,4 +1,4 @@
-import { Outlet } from "react-router";
+import { Outlet } from "react-router-dom";
 import NavbarThree from "./NavbarThree";
 import FooterThree from "./FooterThree";
 

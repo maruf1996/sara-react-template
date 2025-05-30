@@ -5,7 +5,7 @@ import Testimonials from "../component/Testimonials";
 import clients1Image from "../assets/images/clients-1.png";
 import clients2Image from "../assets/images/clients-2.png";
 import clients3Image from "../assets/images/clients-3.png";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 const TestimonialPage = () => {
   const breadcrumbs = [

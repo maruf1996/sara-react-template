@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import heroPos1 from "../assets/images/hero-pos-1.png";
 import heroPos2 from "../assets/images/hero-pos-2.png";
 import heroThumbBg from "../assets/images/hero-thumb-bg.png";
@@ -34,12 +35,12 @@ const Hero = () => {
             </div>
 
             <div className="hero_btn_main">
-              <a href="./contuct-us.html" className="sara-btn">
+              <Link to="/contuct-us" className="sara-btn">
                 Get in Touch
-              </a>
-              <a href="./about.html" className="sara-btn__border">
+              </Link>
+              <Link to="/about" className="sara-btn__border">
                 Learn more
-              </a>
+              </Link>
             </div>
           </div>
 

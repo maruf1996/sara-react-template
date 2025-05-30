@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const InnerServices = () => {
   return (
@@ -70,8 +71,8 @@ const InnerServices = () => {
                   quality assurance.
                 </p>
 
-                <a
-                  href="./services-detais.html"
+                <Link
+                  to="/services-detais"
                   className="services_item_btm text_lg"
                 >
                   Read More
@@ -91,7 +92,7 @@ const InnerServices = () => {
                       />
                     </svg>
                   </span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -190,8 +191,8 @@ const InnerServices = () => {
                   quality assurance.
                 </p>
 
-                <a
-                  href="./services-detais.html"
+                <Link
+                  to="/services-detais"
                   className="services_item_btm text_lg"
                 >
                   Read More
@@ -211,7 +212,7 @@ const InnerServices = () => {
                       />
                     </svg>
                   </span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -254,8 +255,8 @@ const InnerServices = () => {
                   quality assurance.
                 </p>
 
-                <a
-                  href="./services-detais.html"
+                <Link
+                  to="/services-detais"
                   className="services_item_btm text_lg"
                 >
                   Read More
@@ -275,7 +276,7 @@ const InnerServices = () => {
                       />
                     </svg>
                   </span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -318,8 +319,8 @@ const InnerServices = () => {
                   quality assurance.
                 </p>
 
-                <a
-                  href="./services-detais.html"
+                <Link
+                  to="/services-detais"
                   className="services_item_btm text_lg"
                 >
                   Read More
@@ -339,7 +340,7 @@ const InnerServices = () => {
                       />
                     </svg>
                   </span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -438,8 +439,8 @@ const InnerServices = () => {
                   quality assurance.
                 </p>
 
-                <a
-                  href="./services-detais.html"
+                <Link
+                  to="/services-detais"
                   className="services_item_btm text_lg"
                 >
                   Read More
@@ -459,7 +460,7 @@ const InnerServices = () => {
                       />
                     </svg>
                   </span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -502,8 +503,8 @@ const InnerServices = () => {
                   quality assurance.
                 </p>
 
-                <a
-                  href="./services-detais.html"
+                <Link
+                  to="/services-detais"
                   className="services_item_btm text_lg"
                 >
                   Read More
@@ -523,7 +524,7 @@ const InnerServices = () => {
                       />
                     </svg>
                   </span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

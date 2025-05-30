@@ -1,6 +1,6 @@
 import React from "react";
 import PageHeader from "../component/PageHeader";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 // Import images for team members
 import team1Image from "../assets/images/team-1.webp";
@@ -418,7 +418,7 @@ const TeamMemberPage = () => {
                   </div>
 
                   <div className="team_item_txt">
-                    <Link to="/single-member.html" className="text_2xl">
+                    <Link to="/single-member" className="text_2xl">
                       {member.name}
                     </Link>
                     <p className="text_lg">{member.role}</p>

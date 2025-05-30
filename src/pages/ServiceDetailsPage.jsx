@@ -1,6 +1,6 @@
 import React from "react";
 import PageHeader from "../component/PageHeader";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 // Import images
 import mainImage from "../assets/images/Image.webp";

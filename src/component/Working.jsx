@@ -21,7 +21,7 @@ const Working = () => {
                 data-aos-delay="100"
               >
                 <h2 className="main_titel">
-                  Let’s see <span>How do</span>, We are works.
+                  Let’s see <span>How do</span> , We are works.
                 </h2>
 
                 <p data-aos="fade-up" data-aos-delay="200">

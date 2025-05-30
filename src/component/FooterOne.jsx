@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import footerVic1 from "../assets/images/footer_vic-1.svg";
 import footerVic2 from "../assets/images/footer_vic-2.svg";
 import footerVic3 from "../assets/images/footer_vic-3.svg";

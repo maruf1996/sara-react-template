@@ -1,7 +1,7 @@
 import React from "react";
 import PageHeader from "../component/PageHeader";
 import BlogItem from "../component/BlogItem";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import thumb1 from "../assets/images/blog-thumb-1.webp";
 import thumb2 from "../assets/images/blog-thumb-2.webp";
 import profile1 from "../assets/images/profile-1.svg";

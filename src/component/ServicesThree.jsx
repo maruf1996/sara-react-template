@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 import s1 from "../assets/images/s-1.svg";
 import s2 from "../assets/images/s-2.svg";

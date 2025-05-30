@@ -3,7 +3,7 @@ import blogThumb1 from "../assets/images/blog-thumb-1.webp";
 import blogThumb2 from "../assets/images/blog-thumb-2.webp";
 import blogThumb3 from "../assets/images/blog-thumb-3.webp";
 import profileThumb from "../assets/images/profile-1.svg";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 const blogPosts = [
   {

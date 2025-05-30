@@ -1,7 +1,7 @@
 import React from "react";
 import checkIcon from "../assets/images/a-check.svg";
 import checkIcon2 from "../assets/images/check2.svg";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 const PricingTwo = () => {
   return (

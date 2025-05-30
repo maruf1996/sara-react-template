@@ -1,4 +1,4 @@
-import { Outlet } from "react-router";
+import { Outlet } from "react-router-dom";
 import NavbarOne from "./NavbarOne";
 import InnerFooter from "./InnerFooter";
 

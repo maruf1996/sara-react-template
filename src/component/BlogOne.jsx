@@ -3,7 +3,7 @@ import blogThumb1 from "../assets/images/blog-thumb-1.webp";
 import blogThumb2 from "../assets/images/blog-thumb-2.webp";
 import blogThumb3 from "../assets/images/blog-thumb-3.webp";
 import profile1 from "../assets/images/profile-1.svg";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 const blogPosts = [
   {
@@ -63,9 +63,9 @@ const BlogOne = () => {
             data-aos-delay="100"
           >
             <div className="blog_head_btn">
-              <a href="./blog-details.html" className="sara-btn__border">
+              <Link to="/blog-details" className="sara-btn__border">
                 Explore all
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -130,9 +130,9 @@ const BlogOne = () => {
         <div className="row">
           <div className="col-xxl-12">
             <div className="blog_head_btn_two">
-              <a href="./blog-details.html" className="sara-btn__border">
+              <Link to="/blog-details" className="sara-btn__border">
                 Explore all
-              </a>
+              </Link>
             </div>
           </div>
         </div>

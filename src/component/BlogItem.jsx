@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import profile from "../assets/images/profile-1.svg";
 
 const BlogItem = ({ blogData, title }) => {

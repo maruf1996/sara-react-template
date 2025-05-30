@@ -1,172 +1,138 @@
-import React, { useEffect, useState } from "react";
-import { Link } from "react-router";
+import { useState } from "react";
+import { Link } from "react-router-dom";
 
-const MobileMenu = ({ headerLogImg }) => {
-  const [isMobileNavOpen, setMobileNavOpen] = useState(false);
+const MobileMenu = ({ headerLogImg, addClass }) => {
+  const [menuActive, setMenuActive] = useState(false);
+  const [openSubmenu, setOpenSubmenu] = useState(null);
 
-  useEffect(() => {
-    document.body.style.overflowY = isMobileNavOpen ? "hidden" : "";
-  }, [isMobileNavOpen]);
+  const toggleMenu = () => setMenuActive(true);
+  const closeMenu = () => {
+    setMenuActive(false);
+    setOpenSubmenu(null);
+  };
+
+  const toggleSubmenu = (index) => {
+    setOpenSubmenu((prev) => (prev === index ? null : index));
+  };
+
+  const menuItems = [
+    {
+      label: "Home",
+      sub: [
+        { label: "Home-1", path: "/" },
+        { label: "Home-2", path: "/home-two" },
+        { label: "Home-3", path: "/home-three" },
+      ],
+    },
+    {
+      label: "Service",
+      path: "/services",
+    },
+    {
+      label: "About Us",
+      path: "/about",
+    },
+    {
+      label: "Pages",
+      sub: [
+        { label: "Blog Details", path: "/blog-details" },
+        { label: "Blog List View", path: "/blog-list-view" },
+        { label: "Contact Us", path: "/contuct-us" },
+        { label: "FAQ", path: "/faq" },
+        { label: "Pricing", path: "/pricing" },
+        { label: "Service Details", path: "/services-detais" },
+        { label: "Single Member", path: "/single-member" },
+        { label: "Team Member", path: "/team" },
+        { label: "Testimonial", path: "/testimonial" },
+        { label: "404", path: "/404" },
+      ],
+    },
+    {
+      label: "Blog",
+      path: "/blog-grid",
+    },
+  ];
+
   return (
-    <div>
-      <div className="mobile-header">
-        <div className="container-full">
-          <div className="mobile-header__container">
-            <div className="p-left">
-              <div className="logo">
-                <Link to="/">
-                  <img src={headerLogImg} className="w-100" alt="logo" />
-                </Link>
-              </div>
+    <div className="mobile-menu-area d-block d-lg-none">
+      <div className="container">
+        <div className="mobile-topbar">
+          <div className="d-flex justify-content-between align-items-center">
+            <div className="logo">
+              <Link to="/">
+                <img src={headerLogImg} alt="logo" />
+              </Link>
             </div>
-            <div className="p-right">
-              <button
-                id="nav-opn-btn"
-                onClick={() => setMobileNavOpen(true)}
-                aria-label="Name"
-              >
-                <i className="fa-solid fa-bars"></i>
-              </button>
+            <div className="bars" onClick={toggleMenu}>
+              <i className="fas fa-bars"></i>
             </div>
           </div>
         </div>
       </div>
-      <aside id="offcanvas-nav" className={isMobileNavOpen ? "open" : ""}>
-        <nav className="m-nav">
-          <div className="m-nav-top">
-            <div className="logo">
-              <Link to="/">
-                <img src={headerLogImg} className="w-100" alt="logo" />
-              </Link>
-            </div>
-            <button id="nav-cls-btn" onClick={() => setMobileNavOpen(false)}>
-              <i className="fa-solid fa-xmark"></i>
-            </button>
+
+      <div
+        className={`mobile-menu-overlay ${menuActive ? "active" : ""}`}
+        onClick={closeMenu}
+      ></div>
+
+      <div className={`mobile-menu-main ${menuActive ? "active" : ""}`}>
+        <div className="logo">
+          <Link to="/">
+            <img src={headerLogImg} alt="logo" />
+          </Link>
+        </div>
+        <div className="close-mobile-menu" onClick={closeMenu}>
+          <i className="fas fa-times"></i>
+        </div>
+
+        <div className="menu-body">
+          <div className="menu-list">
+            <ul className="list-unstyled">
+              {menuItems.map((item, index) => (
+                <li className="sub-mobile-menu" key={index}>
+                  {item.sub ? (
+                    <>
+                      <a
+                        href="#"
+                        className="d-flex justify-content-between align-items-center"
+                        onClick={() => toggleSubmenu(index)}
+                        style={{ cursor: "pointer" }}
+                      >
+                        <span>{item.label}</span>
+                        <i
+                          className={`fas ${addClass} ${
+                            openSubmenu === index
+                              ? "fa-chevron-up"
+                              : "fa-chevron-down"
+                          }`}
+                        ></i>
+                      </a>
+                      <ul
+                        className="list-unstyled"
+                        style={{
+                          display: openSubmenu === index ? "block" : "none",
+                        }}
+                      >
+                        {item.sub.map((subItem, subIdx) => (
+                          <li key={subIdx}>
+                            <Link to={subItem.path} onClick={closeMenu}>
+                              {subItem.label}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    </>
+                  ) : (
+                    <Link to={item.path} onClick={closeMenu}>
+                      {item.label}
+                    </Link>
+                  )}
+                </li>
+              ))}
+            </ul>
           </div>
-
-          <ul className="nav-links">
-            <li className="dropdown">
-              <Link to="#">
-                Home
-                <span>
-                  <svg
-                    width="12"
-                    height="6"
-                    viewBox="0 0 12 6"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M1.00391 1L6.00391 5L11.0039 1"
-                      stroke="#28303F"
-                      strokeWidth="1.5"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                </span>
-              </Link>
-              <ul className="d-menu">
-                <li>
-                  <Link to="/">Home-01</Link>
-                </li>
-                <li>
-                  <Link to="/home-two">Home-02</Link>
-                </li>
-                <li>
-                  <Link to="/home-three">Home-03</Link>
-                </li>
-              </ul>
-            </li>
-
-            <li>
-              <Link to="/services">Service</Link>
-            </li>
-            <li>
-              <Link to="/about">About Us</Link>
-            </li>
-
-            <li className="dropdown">
-              <Link to="#">
-                Pages
-                <span>
-                  <svg
-                    width="12"
-                    height="6"
-                    viewBox="0 0 12 6"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M1.00391 1L6.00391 5L11.0039 1"
-                      stroke="#28303F"
-                      strokeWidth="1.5"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                </span>
-              </Link>
-              <ul className="d-menu">
-                <li>
-                  <Link to="/blog-details" className="text_lg">
-                    Blog Details
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/blog-list-view" className="text_lg">
-                    Blog List View
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/contuct-us" className="text_lg">
-                    Contact Us
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/faq" className="text_lg">
-                    FAQ
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/pricing" className="text_lg">
-                    Pricing
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/services-detais" className="text_lg">
-                    Service Details
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/single-member" className="text_lg">
-                    Single Member
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/team" className="text_lg">
-                    Team Member
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/testimonial" className="text_lg">
-                    Testimonial
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/404" className="text_lg">
-                    404
-                  </Link>
-                </li>
-              </ul>
-            </li>
-
-            <li>
-              <Link to="blog-grid">Blog</Link>
-            </li>
-          </ul>
-        </nav>
-      </aside>
+        </div>
+      </div>
     </div>
   );
 };

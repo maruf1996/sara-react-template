@@ -5,6 +5,7 @@ import team1 from "../assets/images/team-1.webp";
 import team2 from "../assets/images/team-2.webp";
 import team3 from "../assets/images/team-3.webp";
 import team4 from "../assets/images/team-4.webp";
+import { Link } from "react-router-dom";
 
 const teamMembers = [
   { name: "Osama Sam", role: "UX- UI Designer", image: team1 },
@@ -119,9 +120,9 @@ const Team = () => {
                     </div>
                   </div>
                   <div className="team_item_txt">
-                    <a href="./single-member.html" className="text_2xl">
+                    <Link to="/single-member" className="text_2xl">
                       {member.name}
-                    </a>
+                    </Link>
                     <p className="text_lg">{member.role}</p>
                   </div>
                 </div>

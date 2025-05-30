@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import clients1 from "../assets/images/clients-1.png";
 import clients2 from "../assets/images/clients-2.png";
 import clients3 from "../assets/images/clients-3.png";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 const clientsData = [
   {

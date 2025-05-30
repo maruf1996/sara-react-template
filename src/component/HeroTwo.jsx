@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 import vicArrow from "../assets/images/vic-arrow.png";
 import heroVic from "../assets/images/hero-two-vic.svg";

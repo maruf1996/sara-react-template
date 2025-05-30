@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import check4 from "../assets/images/check.svg";
 import check2 from "../assets/images/check2.svg";
 

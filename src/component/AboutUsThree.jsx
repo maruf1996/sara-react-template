@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 import aboutThumb from "../assets/images/about-3thumb.webp";
 import pos1 from "../assets/images/about-pos-1.svg";

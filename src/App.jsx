@@ -2,7 +2,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import HomeOne from "./pages/HomeOne";
-import { BrowserRouter as Router, Routes, Route } from "react-router";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HomeOneLayout from "./component/HomeOneLayout";
 import HomeTwoLayout from "./component/HomeTwoLayout";
 import HomeTwo from "./pages/HomeTwo";
@@ -22,6 +22,7 @@ import SingleMemberPage from "./pages/SingleMemberPage";
 import TeamMemberPage from "./pages/TeamMemberPage";
 import TestimonialPage from "./pages/TestimonialPage";
 import Error404 from "./pages/Error404";
+import ScrollToTop from "./component/ScrollToTop";
 
 function App() {
   useEffect(() => {
@@ -33,6 +34,7 @@ function App() {
 
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         {/* Home One */}
         <Route path="/" element={<HomeOneLayout />}>

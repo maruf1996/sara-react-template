@@ -8,7 +8,7 @@ import textPos1 from "../assets/images/about-pos-5.svg";
 import textPos2 from "../assets/images/about-pos-6.svg";
 import unionImg from "../assets/images/hero-union.png";
 import checkIcon from "../assets/images/a-check.svg";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 const AbouUsTwo = () => {
   return (
