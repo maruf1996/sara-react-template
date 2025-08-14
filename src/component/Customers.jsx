@@ -35,7 +35,7 @@ const Customers = ({ addClass }) => {
       <div className="container">
         <div className="row">
           <div className="col-xxl-12">
-            <div className="customers_titel" data-aos="fade-up">
+            <div className="customers_titel">
               <h2>
                 Trusted by <span>15,000+</span> Customers
               </h2>

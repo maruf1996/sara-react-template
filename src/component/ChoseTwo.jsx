@@ -20,15 +20,11 @@ const ChoseTwo = ({ addClass }) => {
           <div className="row align-items-center flex-column-reverse flex-lg-row">
             <div className="col-lg-6 col-xxl-6">
               <div className="chose_two_head">
-                <h2
-                  className="main_titel_three"
-                  data-aos="fade-up"
-                  data-aos-delay="100"
-                >
+                <h2 className="main_titel_three">
                   For Next Renewable <br />
                   <span>SEO Ranking </span> Revolution
                 </h2>
-                <p className="text_lg" data-aos="fade-up" data-aos-delay="200">
+                <p className="text_lg">
                   Your Comprehensive Solution for Optimizing Website SEO
                   Performance and Achieving Tangible Search Engine Ranking
                   Results.
@@ -36,31 +32,19 @@ const ChoseTwo = ({ addClass }) => {
               </div>
 
               <div className="chose_renge_main">
-                <div
-                  className="chose_renge_item"
-                  data-aos="fade-up"
-                  data-aos-delay="300"
-                >
+                <div className="chose_renge_item">
                   <h6>
                     Trusted Professionals <span>90%</span>
                   </h6>
                   <div className="chose_renge_ber"></div>
                 </div>
-                <div
-                  className="chose_renge_item"
-                  data-aos="fade-up"
-                  data-aos-delay="400"
-                >
+                <div className="chose_renge_item">
                   <h6>
                     Innovative Solutions<span>80%</span>
                   </h6>
                   <div className="chose_renge_ber"></div>
                 </div>
-                <div
-                  className="chose_renge_item"
-                  data-aos="fade-up"
-                  data-aos-delay="500"
-                >
+                <div className="chose_renge_item">
                   <h6>
                     Security Advices<span>85%</span>
                   </h6>
@@ -69,11 +53,7 @@ const ChoseTwo = ({ addClass }) => {
               </div>
             </div>
 
-            <div
-              className="col-lg-6 col-xxl-6"
-              data-aos="fade-left"
-              data-aos-delay="600"
-            >
+            <div className="col-lg-6 col-xxl-6">
               <div className="chose_two_thumb_main">
                 <div className="chose_two_thumb_item">
                   <div className="chose_two_thumb">

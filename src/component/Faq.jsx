@@ -10,18 +10,14 @@ const Faq = () => {
       <div className="container">
         <div className="row align-items-center">
           <div className="col-xxl-6">
-            <div className="faq_head" data-aos="fade-up" data-aos-delay="100">
+            <div className="faq_head">
               <h2>
                 Frequently Ask <span>Questions</span>
               </h2>
             </div>
 
             <div className="accordion" id="accordionExample">
-              <div
-                className="accordion-item"
-                data-aos="fade-up"
-                data-aos-delay="200"
-              >
+              <div className="accordion-item">
                 <h2 className="accordion-header" id="headingOne">
                   <button
                     className="accordion-button"
@@ -47,11 +43,7 @@ const Faq = () => {
                   </div>
                 </div>
               </div>
-              <div
-                className="accordion-item"
-                data-aos="fade-up"
-                data-aos-delay="300"
-              >
+              <div className="accordion-item">
                 <h2 className="accordion-header" id="headingTwo">
                   <button
                     className="accordion-button collapsed"
@@ -77,11 +69,7 @@ const Faq = () => {
                   </div>
                 </div>
               </div>
-              <div
-                className="accordion-item"
-                data-aos="fade-up"
-                data-aos-delay="400"
-              >
+              <div className="accordion-item">
                 <h2 className="accordion-header" id="headingThree">
                   <button
                     className="accordion-button collapsed"
@@ -109,7 +97,7 @@ const Faq = () => {
               </div>
             </div>
           </div>
-          <div className="col-xxl-6" data-aos="fade-left" data-aos-delay="100">
+          <div className="col-xxl-6">
             <div className="testimonails_thumb_main">
               <div className="testimonails_thumb">
                 <img src={faqThumb} alt="thumb" />

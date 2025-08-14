@@ -14,7 +14,6 @@ const blogData = [
     date: "August 06, 2024",
     category: "Stories, Media",
     readTime: "5 min read",
-    delay: 200,
   },
   {
     id: 2,
@@ -24,7 +23,6 @@ const blogData = [
     date: "August 06, 2024",
     category: "Stories, Media",
     readTime: "5 min read",
-    delay: 300,
   },
   {
     id: 3,
@@ -34,7 +32,6 @@ const blogData = [
     date: "August 06, 2024",
     category: "Stories, Media",
     readTime: "5 min read",
-    delay: 400,
   },
 ];
 
@@ -44,7 +41,7 @@ const BlogTwo = () => {
       <div className="container">
         <div className="row justify-content-center align-items-center">
           <div className="col-xxl-6">
-            <div className="blog_head" data-aos="fade-up" data-aos-delay="100">
+            <div className="blog_head">
               <h2 className="main_titel_two">
                 Our Latest <span>News & Blog</span>
               </h2>
@@ -54,12 +51,7 @@ const BlogTwo = () => {
 
         <div className="row mg_top_10px g-4">
           {blogData.map((blog) => (
-            <div
-              key={blog.id}
-              className="col-md-6 col-lg-4 col-xxl-4"
-              data-aos="fade-up"
-              data-aos-delay={blog.delay}
-            >
+            <div key={blog.id} className="col-md-6 col-lg-4 col-xxl-4">
               <div className="blog_item">
                 <div className="blog_item_thumb">
                   <img src={blog.thumb} alt="thumb" />
@@ -112,7 +104,7 @@ const BlogTwo = () => {
         </div>
 
         {/* Bottom Buttons */}
-        <div className="row" data-aos="fade-up" data-aos-delay="600">
+        <div className="row">
           <div className="col-xxl-12">
             <div className="blog_head_btn_btm">
               <Link

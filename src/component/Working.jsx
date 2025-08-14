@@ -15,42 +15,28 @@ const Working = () => {
         <div className="row">
           <div className="row">
             <div className="col-xxl-6">
-              <div
-                className="working_head"
-                data-aos="fade-up"
-                data-aos-delay="100"
-              >
+              <div className="working_head">
                 <h2 className="main_titel">
                   Let’s see <span>How do</span> , We are works.
                 </h2>
 
-                <p data-aos="fade-up" data-aos-delay="200">
+                <p>
                   Sara specializes in data science, machine learning, and
                   artificial intelligence, delivering business solutions with
                   blazing speed and striking results.
                 </p>
 
-                <h6 data-aos="fade-up" data-aos-delay="300">
-                  Want to learn more about us?
-                </h6>
+                <h6>Want to learn more about us?</h6>
               </div>
 
-              <div
-                className="working_btn"
-                data-aos="fade-up"
-                data-aos-delay="400"
-              >
+              <div className="working_btn">
                 <a href="/contuct-us" className="sara-btn">
                   Get in Touch
                 </a>
               </div>
             </div>
 
-            <div
-              className="col-xxl-6"
-              data-aos="fade-left"
-              data-aos-delay="100"
-            >
+            <div className="col-xxl-6">
               <div className="working_thumb_main">
                 <div className="working_thumb">
                   <img src={workingThumb} alt="thumb" />
@@ -72,11 +58,7 @@ const Working = () => {
         <div className="row working_mt">
           <div className="col-xxl-12">
             <div className="working_icon_item_main">
-              <div
-                className="working_icon_item"
-                data-aos="fade-right"
-                data-aos-delay="100"
-              >
+              <div className="working_icon_item">
                 <div className="working_icon_item_df">
                   <div className="working_icon_main">
                     <span className="working_icon">
@@ -93,11 +75,7 @@ const Working = () => {
                 </div>
               </div>
 
-              <div
-                className="working_icon_item"
-                data-aos="fade-right"
-                data-aos-delay="200"
-              >
+              <div className="working_icon_item">
                 <div className="working_icon_item_df">
                   <div className="working_icon_main">
                     <span className="working_icon">
@@ -116,11 +94,7 @@ const Working = () => {
                 </div>
               </div>
 
-              <div
-                className="working_icon_item"
-                data-aos="fade-right"
-                data-aos-delay="300"
-              >
+              <div className="working_icon_item">
                 <div className="working_icon_item_df">
                   <div className="working_icon_main">
                     <span className="working_icon">

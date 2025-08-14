@@ -78,11 +78,7 @@ const Client = () => {
     <section className="clients">
       <div className="container">
         <div className="row">
-          <div
-            className="col-9 col-xxl-4"
-            data-aos="fade-up"
-            data-aos-delay="100"
-          >
+          <div className="col-9 col-xxl-4">
             <h2 className="main_titel">Don’t Trust Us, Trust our clients</h2>
           </div>
         </div>

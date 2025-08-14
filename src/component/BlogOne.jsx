@@ -46,22 +46,14 @@ const BlogOne = () => {
     <section className="blog">
       <div className="container">
         <div className="row align-items-center">
-          <div
-            className="col-8 col-md-8 col-xxl-6"
-            data-aos="fade-up"
-            data-aos-delay="100"
-          >
+          <div className="col-8 col-md-8 col-xxl-6">
             <div className="blog_head">
               <h2 className="main_titel">
                 Our Latest <span>News & Blog</span>
               </h2>
             </div>
           </div>
-          <div
-            className="col-md-4 col-xxl-6"
-            data-aos="fade-up"
-            data-aos-delay="100"
-          >
+          <div className="col-md-4 col-xxl-6">
             <div className="blog_head_btn">
               <Link to="/blog-details" className="sara-btn__border">
                 Explore all
@@ -71,12 +63,7 @@ const BlogOne = () => {
         </div>
         <div className="row mg_top_10px g-4">
           {blogPosts.map((post) => (
-            <div
-              className="col-md-6 col-lg-4 col-xxl-4"
-              data-aos="fade-up"
-              data-aos-delay={200 + post.id * 100}
-              key={post.id}
-            >
+            <div className="col-md-6 col-lg-4 col-xxl-4" key={post.id}>
               <div className="blog_item">
                 <div className="blog_item_thumb">
                   <img src={post.thumb} alt="thumb" />

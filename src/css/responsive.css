@@ -25,6 +25,12 @@
   }
 }
 
+@media (max-width: 1399.98px) {
+  .menu {
+    margin-left: 60px;
+  }
+}
+
 @media (min-width: 992px) and (max-width: 1399.98px) {
   .working_pos_thumb_three,
   .hero_left_pos-2,

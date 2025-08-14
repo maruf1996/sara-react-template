@@ -14,7 +14,7 @@ const AboutUs = () => {
     <section className="about_us">
       <div className="container">
         <div className="row align-items-center flex-column-reverse flex-lg-row">
-          <div className="col-lg-6 col-xxl-6" data-aos="fade-right">
+          <div className="col-lg-6 col-xxl-6">
             <div className="about_us_thumb_main">
               <div className="about_us_thumb">
                 <img src={aboutThumb} alt="thumb" />
@@ -49,15 +49,11 @@ const AboutUs = () => {
             </div>
 
             <div className="about_head">
-              <h2
-                className="main_titel"
-                data-aos="fade-up"
-                data-aos-delay="100"
-              >
+              <h2 className="main_titel">
                 We offer Real-time <span> Business Grow </span> Solutions
               </h2>
 
-              <p className="text_lg" data-aos="fade-up" data-aos-delay="200">
+              <p className="text_lg">
                 This list encompasses a broad range of services that can help
                 businesses manage and optimize their IT infrastructure, enhance
                 their security posture, support their digital transformation.
@@ -65,19 +61,19 @@ const AboutUs = () => {
             </div>
 
             <ul className="about_list">
-              <li data-aos="fade-up" data-aos-delay="300">
+              <li>
                 <span>
                   <img src={checkIcon} alt="icon" />
                 </span>
                 Various analysis options.
               </li>
-              <li data-aos="fade-up" data-aos-delay="400">
+              <li>
                 <span>
                   <img src={checkIcon} alt="icon" />
                 </span>
                 Page Load (time, size, number of requests).
               </li>
-              <li data-aos="fade-up" data-aos-delay="500">
+              <li>
                 <span>
                   <img src={checkIcon} alt="icon" />
                 </span>
@@ -85,11 +81,7 @@ const AboutUs = () => {
               </li>
             </ul>
 
-            <div
-              className="about_us_btn"
-              data-aos="fade-up"
-              data-aos-delay="600"
-            >
+            <div className="about_us_btn">
               <a href="/about" className="sara-btn__border">
                 Explore all
               </a>

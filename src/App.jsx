@@ -1,6 +1,3 @@
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
 import HomeOne from "./pages/HomeOne";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HomeOneLayout from "./component/HomeOneLayout";
@@ -25,13 +22,6 @@ import Error404 from "./pages/Error404";
 import ScrollToTop from "./component/ScrollToTop";
 
 function App() {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-      once: true,
-    });
-  }, []);
-
   return (
     <Router>
       <ScrollToTop />

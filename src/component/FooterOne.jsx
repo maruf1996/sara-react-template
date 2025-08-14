@@ -30,11 +30,7 @@ const FooterOne = () => {
         </div>
 
         <div className="row">
-          <div
-            className="col-xxl-4 pd-left"
-            data-aos="fade-right"
-            data-aos-delay="100"
-          >
+          <div className="col-xxl-4 pd-left">
             <div className="footer_logo">
               <Link to="#">
                 <img src={footerLogo} alt="logo" />
@@ -110,11 +106,7 @@ const FooterOne = () => {
 
           <div className="col-xxl-8">
             <div className="row ml_40px">
-              <div
-                className="col-6 col-lg-3"
-                data-aos="fade-up"
-                data-aos-delay="100"
-              >
+              <div className="col-6 col-lg-3">
                 <div className="footer_item">
                   <h3 className="text_2xl">Quick Link</h3>
                   <ul className="footer_link">
@@ -147,11 +139,7 @@ const FooterOne = () => {
                 </div>
               </div>
 
-              <div
-                className="col-6 col-lg-3 ml_10px res-ml"
-                data-aos="fade-up"
-                data-aos-delay="200"
-              >
+              <div className="col-6 col-lg-3 ml_10px res-ml">
                 <div className="footer_item">
                   <h3 className="text_2xl">Support</h3>
                   <ul className="footer_link">
@@ -179,11 +167,7 @@ const FooterOne = () => {
                 </div>
               </div>
 
-              <div
-                className="col-6 col-lg-3 ml_10px res-mt"
-                data-aos="fade-up"
-                data-aos-delay="300"
-              >
+              <div className="col-6 col-lg-3 ml_10px res-mt">
                 <div className="footer_item">
                   <h3 className="text_2xl">Products</h3>
                   <ul className="footer_link">
@@ -216,11 +200,7 @@ const FooterOne = () => {
                 </div>
               </div>
 
-              <div
-                className="col-6 col-lg-3 ml_10px res-ml res-mt"
-                data-aos="fade-up"
-                data-aos-delay="400"
-              >
+              <div className="col-6 col-lg-3 ml_10px res-ml res-mt">
                 <div className="footer_item">
                   <h3 className="text_2xl">Our Address</h3>
                   <ul className="footer_link two">

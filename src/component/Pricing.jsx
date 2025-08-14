@@ -10,11 +10,7 @@ const Pricing = () => {
         <div className="row justify-content-center">
           <div className="col-xxl-6">
             <div className="pricing_head">
-              <h2
-                className="main_titel"
-                data-aos="fade-up"
-                data-aos-delay="100"
-              >
+              <h2 className="main_titel">
                 Choose a <span> Pricing Plan</span> that works for you
               </h2>
             </div>

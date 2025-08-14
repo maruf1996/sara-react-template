@@ -43,7 +43,7 @@ const Testimonials = ({ addClass }) => {
     <section className={`testimonails ${addClass || ""}`}>
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-xxl-6" data-aos="fade-right">
+          <div className="col-xxl-6">
             <div className="testimonails_thumb_main">
               <img src={thumb} alt="thumb" className="testimonails_thumb" />
               <img
@@ -65,11 +65,7 @@ const Testimonials = ({ addClass }) => {
           </div>
 
           <div className="col-xxl-6 testimonails_pl">
-            <div
-              className="testimonails_head"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
+            <div className="testimonails_head">
               <h2 className="main_titel_two">
                 Don’t Trust Us, Trust Our <span> What Client Say?</span>
               </h2>

@@ -15,7 +15,7 @@ const AbouUsTwo = () => {
     <section className="about_us about_us--two">
       <div className="container">
         <div className="row align-items-center flex-column-reverse flex-lg-row">
-          <div className="col-lg-6 col-xxl-6" data-aos="fade-right">
+          <div className="col-lg-6 col-xxl-6">
             <div className="about_us_two_thumb_main">
               <div className="about_two-pos-one">
                 <img src={aboutPosOne} alt="thumb" />
@@ -47,19 +47,11 @@ const AbouUsTwo = () => {
             </div>
 
             <div className="about_head">
-              <h2
-                className="main_titel_two"
-                data-aos="fade-up"
-                data-aos-delay="100"
-              >
+              <h2 className="main_titel_two">
                 We offer Real-time <span> Business Grow </span>Solutions
               </h2>
 
-              <div
-                className="about_two_item"
-                data-aos="fade-up"
-                data-aos-delay="200"
-              >
+              <div className="about_two_item">
                 <div className="about_two_item_txt">
                   <h3 className="text_5xl">$7bil+</h3>
                   <p className="text_lg">Project Handover</p>
@@ -72,19 +64,19 @@ const AbouUsTwo = () => {
             </div>
 
             <ul className="about_list">
-              <li data-aos="fade-up" data-aos-delay="300">
+              <li>
                 <span>
                   <img src={checkIcon} alt="icon" />
                 </span>
                 Various analysis options.
               </li>
-              <li data-aos="fade-up" data-aos-delay="400">
+              <li>
                 <span>
                   <img src={checkIcon} alt="icon" />
                 </span>
                 Page Load (time, size, number of requests).
               </li>
-              <li data-aos="fade-up" data-aos-delay="500">
+              <li>
                 <span>
                   <img src={checkIcon} alt="icon" />
                 </span>
@@ -92,11 +84,7 @@ const AbouUsTwo = () => {
               </li>
             </ul>
 
-            <div
-              className="about_us_btn"
-              data-aos="fade-up"
-              data-aos-delay="600"
-            >
+            <div className="about_us_btn">
               <Link
                 to="/about"
                 className="sara-btn__border sara-btn__border--2"

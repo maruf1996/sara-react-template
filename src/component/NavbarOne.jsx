@@ -132,7 +132,7 @@ const NavbarOne = () => {
                   </div>
                   <ul className="menu">
                     <li>
-                      <Link to="#" className="text_lg">
+                      <Link to="#" className="text_base">
                         Home
                         <span>
                           <svg
@@ -154,34 +154,34 @@ const NavbarOne = () => {
 
                       <ul>
                         <li>
-                          <Link to="/" className="text_lg">
-                            Home-1
+                          <Link to="/" className="text_base">
+                            Home One
                           </Link>
                         </li>
                         <li>
-                          <Link to="/home-two" className="text_lg">
-                            Home-2
+                          <Link to="/home-two" className="text_base">
+                            Home Two
                           </Link>
                         </li>
                         <li>
-                          <Link to="/home-three" className="text_lg">
-                            Home-3
+                          <Link to="/home-three" className="text_base">
+                            Home Three
                           </Link>
                         </li>
                       </ul>
                     </li>
                     <li>
-                      <Link to="/services" className="text_lg">
+                      <Link to="/services" className="text_base">
                         Service
                       </Link>
                     </li>
                     <li>
-                      <Link to="/about" className="text_lg">
+                      <Link to="/about" className="text_base">
                         About Us
                       </Link>
                     </li>
                     <li>
-                      <Link to="#" className="text_lg">
+                      <Link to="#" className="text_base">
                         Pages
                         <span>
                           <svg
@@ -203,59 +203,59 @@ const NavbarOne = () => {
 
                       <ul>
                         <li>
-                          <Link to="/blog-details" className="text_lg">
+                          <Link to="/blog-details" className="text_base">
                             Blog Details
                           </Link>
                         </li>
                         <li>
-                          <Link to="/blog-list-view" className="text_lg">
+                          <Link to="/blog-list-view" className="text_base">
                             Blog List View
                           </Link>
                         </li>
                         <li>
-                          <Link to="/contuct-us" className="text_lg">
+                          <Link to="/contuct-us" className="text_base">
                             Contact Us
                           </Link>
                         </li>
                         <li>
-                          <Link to="/faq" className="text_lg">
+                          <Link to="/faq" className="text_base">
                             FAQ
                           </Link>
                         </li>
                         <li>
-                          <Link to="/pricing" className="text_lg">
+                          <Link to="/pricing" className="text_base">
                             Pricing
                           </Link>
                         </li>
                         <li>
-                          <Link to="/services-detais" className="text_lg">
+                          <Link to="/services-detais" className="text_base">
                             Service Details
                           </Link>
                         </li>
                         <li>
-                          <Link to="/single-member" className="text_lg">
+                          <Link to="/single-member" className="text_base">
                             Single Member
                           </Link>
                         </li>
                         <li>
-                          <Link to="/team" className="text_lg">
+                          <Link to="/team" className="text_base">
                             Team Member
                           </Link>
                         </li>
                         <li>
-                          <Link to="/testimonial" className="text_lg">
+                          <Link to="/testimonial" className="text_base">
                             Testimonial
                           </Link>
                         </li>
                         <li>
-                          <Link to="/404" className="text_lg">
+                          <Link to="/404" className="text_base">
                             404
                           </Link>
                         </li>
                       </ul>
                     </li>
                     <li>
-                      <Link to="blog-grid" className="text_lg">
+                      <Link to="blog-grid" className="text_base">
                         Blog
                       </Link>
                     </li>

@@ -19,9 +19,9 @@ const MobileMenu = ({ headerLogImg, addClass }) => {
     {
       label: "Home",
       sub: [
-        { label: "Home-1", path: "/" },
-        { label: "Home-2", path: "/home-two" },
-        { label: "Home-3", path: "/home-three" },
+        { label: "Home One", path: "/" },
+        { label: "Home Two", path: "/home-two" },
+        { label: "Home Three", path: "/home-three" },
       ],
     },
     {
@@ -54,7 +54,7 @@ const MobileMenu = ({ headerLogImg, addClass }) => {
   ];
 
   return (
-    <div className="mobile-menu-area d-block d-lg-none">
+    <div className="mobile-menu-area ">
       <div className="container">
         <div className="mobile-topbar">
           <div className="d-flex justify-content-between align-items-center">

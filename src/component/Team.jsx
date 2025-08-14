@@ -35,7 +35,7 @@ const Team = () => {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-xxl-5">
-            <div className="team_head" data-aos="fade-up" data-aos-delay="200">
+            <div className="team_head">
               <h2 className="main_titel_two">
                 Best of our Special <span>Team Member</span>
               </h2>

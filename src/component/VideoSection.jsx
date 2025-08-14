@@ -10,7 +10,7 @@ const VideoSection = () => {
   return (
     <section className="vedio">
       <div className="container">
-        <div className="row" data-aos="fade-up" data-aos-delay="100">
+        <div className="row">
           <div className="col-lg-6 col-xxl-6">
             <h2 className="main_titel_three">
               We're here Help to you Find your <span>Service</span>

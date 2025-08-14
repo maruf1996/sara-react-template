@@ -7,12 +7,12 @@ const Services = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-12 col-xxl-5">
-            <h2 className="main_titel" data-aos="fade-up">
+            <h2 className="main_titel">
               Services We Provide with <span>Get Benefited.</span>
             </h2>
           </div>
 
-          <div className="col-xxl-6 offset-xxl-1" data-aos="fade-up">
+          <div className="col-xxl-6 offset-xxl-1">
             <div className="services_txt">
               <p className="text_lg">
                 This list encompasses a broad range of services that can help
@@ -32,11 +32,7 @@ const Services = () => {
           </div>
         </div>
         <div className="row g-4 mg_top_10px">
-          <div
-            className="col-sm-6 col-lg-4 col-xxl-4"
-            data-aos="fade-up"
-            data-aos-delay="100"
-          >
+          <div className="col-sm-6 col-lg-4 col-xxl-4">
             <div className="services_item">
               <span className="services_item_icon">
                 <svg
@@ -96,11 +92,7 @@ const Services = () => {
               </div>
             </div>
           </div>
-          <div
-            className="col-sm-6 col-lg-4 col-xxl-4"
-            data-aos="fade-up"
-            data-aos-delay="200"
-          >
+          <div className="col-sm-6 col-lg-4 col-xxl-4">
             <div className="services_item">
               <span className="services_item_icon">
                 <svg
@@ -216,11 +208,7 @@ const Services = () => {
               </div>
             </div>
           </div>
-          <div
-            className="col-sm-6 col-lg-4 col-xxl-4"
-            data-aos="fade-up"
-            data-aos-delay="300"
-          >
+          <div className="col-sm-6 col-lg-4 col-xxl-4">
             <div className="services_item">
               <span className="services_item_icon">
                 <svg

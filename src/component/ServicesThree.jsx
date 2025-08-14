@@ -13,21 +13,13 @@ const ServicesThree = () => {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-xxl-6">
-            <h2
-              className="main_titel_three"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
+            <h2 className="main_titel_three">
               Turning Visions into Best <span> Sustainable Service </span>
             </h2>
           </div>
         </div>
         <div className="row g-4 align-items-center mg_top_10px">
-          <div
-            className="col-sm-6 col-lg-4 col-xxl-3"
-            data-aos="fade-up"
-            data-aos-delay="200"
-          >
+          <div className="col-sm-6 col-lg-4 col-xxl-3">
             <div className="services_item">
               <span className="services_item_icon">
                 <img src={s1} alt="icon" />
@@ -66,11 +58,7 @@ const ServicesThree = () => {
             </div>
           </div>
 
-          <div
-            className="col-sm-6 col-lg-4 col-xxl-3"
-            data-aos="fade-up"
-            data-aos-delay="300"
-          >
+          <div className="col-sm-6 col-lg-4 col-xxl-3">
             <div className="services_item">
               <span className="services_item_icon">
                 <img src={s2} alt="icon" />
@@ -109,11 +97,7 @@ const ServicesThree = () => {
             </div>
           </div>
 
-          <div
-            className="col-sm-6 col-lg-4 col-xxl-3"
-            data-aos="fade-up"
-            data-aos-delay="400"
-          >
+          <div className="col-sm-6 col-lg-4 col-xxl-3">
             <div className="services_item">
               <span className="services_item_icon">
                 <img src={s3} alt="icon" />
@@ -152,11 +136,7 @@ const ServicesThree = () => {
             </div>
           </div>
 
-          <div
-            className="col-sm-6 col-lg-4 col-xxl-3"
-            data-aos="fade-up"
-            data-aos-delay="500"
-          >
+          <div className="col-sm-6 col-lg-4 col-xxl-3">
             <div className="services_item">
               <span className="services_item_icon">
                 <img src={s4} alt="icon" />
@@ -195,11 +175,7 @@ const ServicesThree = () => {
             </div>
           </div>
 
-          <div
-            className="col-sm-6 col-lg-4 col-xxl-3"
-            data-aos="fade-up"
-            data-aos-delay="600"
-          >
+          <div className="col-sm-6 col-lg-4 col-xxl-3">
             <div className="services_item">
               <span className="services_item_icon">
                 <img src={s1} alt="icon" />
@@ -238,11 +214,7 @@ const ServicesThree = () => {
             </div>
           </div>
 
-          <div
-            className="col-sm-6 col-lg-4 col-xxl-3"
-            data-aos="fade-up"
-            data-aos-delay="700"
-          >
+          <div className="col-sm-6 col-lg-4 col-xxl-3">
             <div className="services_item">
               <span className="services_item_icon">
                 <img src={s5} alt="icon" />
@@ -281,11 +253,7 @@ const ServicesThree = () => {
             </div>
           </div>
 
-          <div
-            className="col-sm-6 col-lg-4 col-xxl-3"
-            data-aos="fade-up"
-            data-aos-delay="800"
-          >
+          <div className="col-sm-6 col-lg-4 col-xxl-3">
             <div className="services_item">
               <span className="services_item_icon">
                 <img src={s4} alt="icon" />
@@ -324,11 +292,7 @@ const ServicesThree = () => {
             </div>
           </div>
 
-          <div
-            className="col-sm-6 col-lg-4 col-xxl-3"
-            data-aos="fade-up"
-            data-aos-delay="900"
-          >
+          <div className="col-sm-6 col-lg-4 col-xxl-3">
             <div className="services_item">
               <span className="services_item_icon">
                 <img src={s4} alt="icon" />

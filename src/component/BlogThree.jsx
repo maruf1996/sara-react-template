@@ -14,7 +14,6 @@ const blogPosts = [
     category: "Stories, Media",
     readTime: "5 min read",
     title: "3 Ways of Lying to yourself About Your New Relationship",
-    delay: "200",
   },
   {
     id: 2,
@@ -24,7 +23,6 @@ const blogPosts = [
     category: "Stories, Media",
     readTime: "5 min read",
     title: "3 Ways of Lying to yourself About Your New Relationship",
-    delay: "300",
   },
   {
     id: 3,
@@ -34,7 +32,6 @@ const blogPosts = [
     category: "Stories, Media",
     readTime: "5 min read",
     title: "3 Ways of Lying to yourself About Your New Relationship",
-    delay: "400",
   },
 ];
 
@@ -44,7 +41,7 @@ const BlogThree = () => {
       <div className="container">
         <div className="row justify-content-center align-items-center">
           <div className="col-xxl-6">
-            <div className="blog_head" data-aos="fade-up" data-aos-delay="100">
+            <div className="blog_head">
               <h2 className="main_titel_three">
                 Our Latest <span>News & Blog</span>
               </h2>
@@ -54,12 +51,7 @@ const BlogThree = () => {
 
         <div className="row mg_top_10px g-4">
           {blogPosts.map((post) => (
-            <div
-              className="col-md-6 col-lg-4 col-xxl-4"
-              data-aos="fade-up"
-              data-aos-delay={post.delay}
-              key={post.id}
-            >
+            <div className="col-md-6 col-lg-4 col-xxl-4" key={post.id}>
               <div className="blog_item">
                 <div className="blog_item_thumb">
                   <img src={post.image} alt="thumb" />
@@ -115,7 +107,7 @@ const BlogThree = () => {
         </div>
 
         <div className="row">
-          <div className="col-xxl-12" data-aos="fade-up" data-aos-delay="500">
+          <div className="col-xxl-12">
             <div className="blog_head_btn_btm">
               <Link to="/blog" className="sara-btn__border sara-btn__border--3">
                 Explore all

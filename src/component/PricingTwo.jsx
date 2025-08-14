@@ -9,11 +9,7 @@ const PricingTwo = () => {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-xxl-5">
-            <div
-              className="pricing_two_head"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
+            <div className="pricing_two_head">
               <h2 className="main_titel_two">
                 No Hidden Cost. Choose <span>Pricing Plan</span>
               </h2>

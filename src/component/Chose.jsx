@@ -13,15 +13,11 @@ const Chose = () => {
         <div className="row align-items-center">
           <div className="col-lg-6">
             <div className="about_head">
-              <h2
-                className="main_titel"
-                data-aos="fade-up"
-                data-aos-delay="100"
-              >
+              <h2 className="main_titel">
                 Target Audience for your <span> Business Solution</span>
               </h2>
 
-              <p className="text_lg" data-aos="fade-up" data-aos-delay="200">
+              <p className="text_lg">
                 This list encompasses a broad range of services that can help
                 businesses manage and optimize their IT infrastructure, enhance
                 their security posture, support their digital transformation.
@@ -29,19 +25,19 @@ const Chose = () => {
             </div>
 
             <ul className="about_list">
-              <li data-aos="fade-up" data-aos-delay="300">
+              <li>
                 <span>
                   <img src={checkIcon} alt="icon" />
                 </span>
                 Various analysis options.
               </li>
-              <li data-aos="fade-up" data-aos-delay="400">
+              <li>
                 <span>
                   <img src={checkIcon} alt="icon" />
                 </span>
                 Page Load (time, size, number of requests).
               </li>
-              <li data-aos="fade-up" data-aos-delay="500">
+              <li>
                 <span>
                   <img src={checkIcon} alt="icon" />
                 </span>
@@ -49,22 +45,14 @@ const Chose = () => {
               </li>
             </ul>
 
-            <div
-              className="about_us_btn"
-              data-aos="fade-up"
-              data-aos-delay="600"
-            >
+            <div className="about_us_btn">
               <a href="/about" className="sara-btn__border">
                 Explore all
               </a>
             </div>
           </div>
 
-          <div
-            className="col-lg-6 col-xxl-6 about_ml"
-            data-aos="fade-left"
-            data-aos-delay="700"
-          >
+          <div className="col-lg-6 col-xxl-6 about_ml">
             <div className="about_us_thumb_main">
               <div className="about_us_thumb">
                 <img src={choseThumb} alt="thumb" />

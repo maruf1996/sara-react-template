@@ -83,6 +83,7 @@
 .menu {
   @extend %display-flex_c-c;
   gap: 42px;
+  margin-left: 140px;
   li {
     position: relative;
     &:hover {
@@ -96,11 +97,13 @@
       color: var(--primary_black);
       font-weight: 500;
       transition: all linear 0.5s;
-      gap: 15px;
+      gap: 10px;
       @extend %display-flex_c-c;
       transition: all linear 0.3s;
       line-height: 78px;
+      text-transform: uppercase;
       span {
+        margin-top: -4px;
         svg {
           stroke: currentColor;
           color: var(--primary_black);

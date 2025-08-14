@@ -6,7 +6,7 @@ const ServicesTwo = () => {
     <section className="services services--two">
       <div className="container">
         <div className="row g-4 align-items-center mg_top_10px">
-          <div className="col-sm-6 col-lg-4 col-xxl-4" data-aos="fade-right">
+          <div className="col-sm-6 col-lg-4 col-xxl-4">
             <div className="services_head">
               <h2 className="main_titel_two">
                 What we offer?
@@ -29,11 +29,7 @@ const ServicesTwo = () => {
               </div>
             </div>
           </div>
-          <div
-            className="col-sm-6 col-lg-4 col-xxl-4"
-            data-aos="fade-up"
-            data-aos-delay="100"
-          >
+          <div className="col-sm-6 col-lg-4 col-xxl-4">
             <div className="services_item">
               <span className="services_item_icon">
                 <svg
@@ -91,11 +87,7 @@ const ServicesTwo = () => {
               </div>
             </div>
           </div>
-          <div
-            className="col-sm-6 col-lg-4 col-xxl-4"
-            data-aos="fade-up"
-            data-aos-delay="200"
-          >
+          <div className="col-sm-6 col-lg-4 col-xxl-4">
             <div className="services_item">
               <span className="services_item_icon">
                 <svg
@@ -211,11 +203,7 @@ const ServicesTwo = () => {
               </div>
             </div>
           </div>
-          <div
-            className="col-sm-6 col-lg-4 col-xxl-4"
-            data-aos="fade-up"
-            data-aos-delay="300"
-          >
+          <div className="col-sm-6 col-lg-4 col-xxl-4">
             <div className="services_item">
               <span className="services_item_icon">
                 <svg
@@ -273,11 +261,7 @@ const ServicesTwo = () => {
               </div>
             </div>
           </div>
-          <div
-            className="col-sm-6 col-lg-4 col-xxl-4"
-            data-aos="fade-up"
-            data-aos-delay="400"
-          >
+          <div className="col-sm-6 col-lg-4 col-xxl-4">
             <div className="services_item">
               <span className="services_item_icon">
                 <svg
@@ -337,11 +321,7 @@ const ServicesTwo = () => {
               </div>
             </div>
           </div>
-          <div
-            className="col-sm-6 col-lg-4 col-xxl-4"
-            data-aos="fade-up"
-            data-aos-delay="500"
-          >
+          <div className="col-sm-6 col-lg-4 col-xxl-4">
             <div className="services_item">
               <span className="services_item_icon">
                 <svg

@@ -72,19 +72,14 @@ const TestimonialPage = () => {
       <section className="clients clients_two">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-9 col-xxl-6" data-aos="fade-up">
+            <div className="col-9 col-xxl-6">
               <h2 className="main_titel">Don’t Trust Us, Trust our clients</h2>
             </div>
           </div>
 
           <div className="row mg_top_40px g-4">
-            {clientsData.map((client, index) => (
-              <div
-                className="col-xxl-4 col-md-6"
-                data-aos="fade-up"
-                data-aos-delay={(index + 1) * 100}
-                key={client.id}
-              >
+            {clientsData.map((client) => (
+              <div className="col-xxl-4 col-md-6" key={client.id}>
                 <div className="clients_item_main">
                   <div className="clients_profile">
                     <div className="clients_profile_thumb">

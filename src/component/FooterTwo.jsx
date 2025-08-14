@@ -8,41 +8,33 @@ const FooterTwo = () => {
       <div className="container">
         <div className="row">
           <div className="col-xxl-4 pd-left">
-            <div
-              className="footer_logo"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
+            <div className="footer_logo">
               <Link to="/">
                 <img src={logo2} alt="logo" />
               </Link>
             </div>
 
-            <div className="footer_txt" data-aos="fade-up" data-aos-delay="200">
+            <div className="footer_txt">
               <p>Want to Create Something Great Together?</p>
             </div>
 
-            <div
-              className="footer_txt_two"
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >
+            <div className="footer_txt_two">
               <Link to="#" className="text_lg">
                 Get in Touch..
               </Link>
 
               <ul>
-                <li data-aos="fade-up" data-aos-delay="400">
+                <li>
                   <a href="mailto:hello@infosara.com">hello@infosara.com</a>
                 </li>
-                <li data-aos="fade-up" data-aos-delay="500">
+                <li>
                   <a href="tel:+17077970462">+1 707 797 0462</a>
                 </li>
               </ul>
             </div>
 
             <ul className="footer_social_icon">
-              <li data-aos="fade-up" data-aos-delay="600">
+              <li>
                 <a
                   href="https://www.facebook.com/"
                   target="_blank"
@@ -53,7 +45,7 @@ const FooterTwo = () => {
                   </span>
                 </a>
               </li>
-              <li data-aos="fade-up" data-aos-delay="700">
+              <li>
                 <a
                   href="https://bd.linkedin.com/"
                   target="_blank"
@@ -64,7 +56,7 @@ const FooterTwo = () => {
                   </span>
                 </a>
               </li>
-              <li data-aos="fade-up" data-aos-delay="800">
+              <li>
                 <a
                   href="https://x.com/"
                   target="_blank"
@@ -75,7 +67,7 @@ const FooterTwo = () => {
                   </span>
                 </a>
               </li>
-              <li data-aos="fade-up" data-aos-delay="900">
+              <li>
                 <a
                   href="https://www.instagram.com/"
                   target="_blank"
@@ -86,7 +78,7 @@ const FooterTwo = () => {
                   </span>
                 </a>
               </li>
-              <li data-aos="fade-up" data-aos-delay="1000">
+              <li>
                 <a
                   href="https://www.tiktok.com/"
                   target="_blank"
@@ -101,7 +93,7 @@ const FooterTwo = () => {
           </div>
 
           <div className="col-xxl-8">
-            <div className="row" data-aos="fade-up" data-aos-delay="100">
+            <div className="row">
               <div className="col-lg-6">
                 <div className="footer_head">
                   <h2 className="main_titel_two">
@@ -129,11 +121,7 @@ const FooterTwo = () => {
             <div className="row footer_mt_two">
               <div className="col-xxl-12">
                 <div className="row">
-                  <div
-                    className="col-6 col-md-4 col-lg-3"
-                    data-aos="fade-right"
-                    data-aos-delay="200"
-                  >
+                  <div className="col-6 col-md-4 col-lg-3">
                     <div className="footer_item">
                       <h3 className="text_2xl">Quick Link</h3>
                       <ul className="footer_link">
@@ -166,11 +154,7 @@ const FooterTwo = () => {
                     </div>
                   </div>
 
-                  <div
-                    className="col-6 col-md-4 col-lg-3 ml_10px res-ml"
-                    data-aos="fade-right"
-                    data-aos-delay="300"
-                  >
+                  <div className="col-6 col-md-4 col-lg-3 ml_10px res-ml">
                     <div className="footer_item">
                       <h3 className="text_2xl">Support</h3>
                       <ul className="footer_link">
@@ -198,11 +182,7 @@ const FooterTwo = () => {
                     </div>
                   </div>
 
-                  <div
-                    className="col-6 col-md-4 col-lg-3 ml_10px res-mt"
-                    data-aos="fade-right"
-                    data-aos-delay="400"
-                  >
+                  <div className="col-6 col-md-4 col-lg-3 ml_10px res-mt">
                     <div className="footer_item">
                       <h3 className="text_2xl">Products</h3>
                       <ul className="footer_link">
