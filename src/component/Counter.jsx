@@ -2,7 +2,7 @@ import React from "react";
 
 const Counter = () => {
   return (
-    <section className="counter">
+    <section className="counter overflow-hidden">
       <div className="container">
         <div className="row">
           <div className="col-6 col-xxl-3">

@@ -51,6 +51,7 @@
   background-color: var(--primary_white);
   border-radius: 20px;
   transition: all linear 0.5s;
+  box-shadow: 0 2px 20px rgba(25, 25, 25, 0.1);
   &:hover {
     transform: translateY(-10px);
   }
@@ -70,6 +71,7 @@
 
         span {
           color: var(--primary_white);
+          padding-left: 10px;
         }
       }
 
@@ -120,6 +122,7 @@
       font-weight: 500;
       line-height: 32.37px;
       letter-spacing: -1px;
+      padding-left: 10px;
     }
   }
 

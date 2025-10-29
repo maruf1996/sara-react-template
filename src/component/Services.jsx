@@ -6,7 +6,7 @@ const Services = () => {
     <section className="services">
       <div className="container">
         <div className="row">
-          <div className="col-lg-12 col-xxl-5">
+          <div className="col-lg-12 col-xxl-5 ">
             <h2 className="main_titel">
               Services We Provide with <span>Get Benefited.</span>
             </h2>

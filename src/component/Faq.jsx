@@ -6,10 +6,10 @@ import thumbPos3 from "../assets/images/testimonails-card.svg";
 
 const Faq = () => {
   return (
-    <section className="faq">
+    <section className="faq overflow-hidden">
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-xxl-6">
+          <div className="col-xl-6">
             <div className="faq_head">
               <h2>
                 Frequently Ask <span>Questions</span>
@@ -97,8 +97,8 @@ const Faq = () => {
               </div>
             </div>
           </div>
-          <div className="col-xxl-6">
-            <div className="testimonails_thumb_main">
+          <div className="col-xl-6">
+            <div className="testimonails_thumb_main style-2">
               <div className="testimonails_thumb">
                 <img src={faqThumb} alt="thumb" />
               </div>

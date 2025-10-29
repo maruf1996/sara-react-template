@@ -5,7 +5,7 @@ import check2 from "../assets/images/check2.svg";
 
 const PricingThree = () => {
   return (
-    <section className="pricing pricing_three">
+    <section className="pricing pricing_three overflow-hidden">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-xxl-6">

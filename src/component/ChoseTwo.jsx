@@ -14,7 +14,7 @@ import heroPos1 from "../assets/images/hero-pos-1.png";
 
 const ChoseTwo = ({ addClass }) => {
   return (
-    <section className={`chose_two ${addClass || ""}`}>
+    <section className={`chose_two overflow-hidden ${addClass || ""}`}>
       <div className="container">
         <div className="container">
           <div className="row align-items-center flex-column-reverse flex-lg-row">

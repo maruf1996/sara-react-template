@@ -10,7 +10,7 @@ import arrowLine from "../assets/images/arrow-line.svg";
 
 const Working = () => {
   return (
-    <section className="working">
+    <section className="working overflow-hidden">
       <div className="container">
         <div className="row">
           <div className="row">

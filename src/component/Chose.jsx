@@ -8,7 +8,7 @@ import pos4 from "../assets/images/about-pos-4.svg";
 
 const Chose = () => {
   return (
-    <section className="chose">
+    <section className="chose overflow-hidden">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-6">

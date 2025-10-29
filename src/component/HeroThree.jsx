@@ -11,7 +11,7 @@ import heroPos3 from "../assets/images/hero-3pos-3.svg";
 
 const HeroThree = () => {
   return (
-    <section className="hero_three">
+    <section className="hero_three overflow-hidden">
       <div className="container">
         <div className="col-xxl-12">
           <div className="banner_shap_three">
@@ -19,7 +19,7 @@ const HeroThree = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-xl-6">
+          <div className="col-lg-6">
             <div className="hero_three_head">
               <h1>
                 Enhance Website <span>SEO Rankings</span> to New Heights
@@ -58,8 +58,7 @@ const HeroThree = () => {
               </div>
             </div>
           </div>
-
-          <div className="col-xxl-6">
+          <div className="col-lg-6">
             <div className="hero_three_thumb_main">
               <div className="hero_three_thumb">
                 <img src={heroMainImg} alt="hero main" />

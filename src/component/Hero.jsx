@@ -10,10 +10,10 @@ import vicArrow from "../assets/images/vic-arrow.png";
 
 const Hero = () => {
   return (
-    <section className="hero">
+    <section className="hero overflow-hidden">
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-lg-12 col-xxl-7">
+          <div className="col-xl-7 col-lg-6">
             <div className="hero_left_pos_main">
               <div className="hero_left_pos-1">
                 <img src={heroVic2} alt="thumb" />
@@ -43,8 +43,7 @@ const Hero = () => {
               </Link>
             </div>
           </div>
-
-          <div className="col-lg-5">
+          <div className="col-xl-5 col-lg-6">
             <div className="hero_thumb_main">
               <div className="hero_thumb_main_thumb">
                 <img src={heroThumbBg} alt="thumb" />
